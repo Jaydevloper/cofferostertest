@@ -1,0 +1,36 @@
+.site-header {
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+}
+.site-header__wrraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header__button{
+    opacity: 0;
+    }
+    @media only screen and (max-width:450px){
+    
+ 
+        .site-header__wrraper{
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+        .site-header__wrraper-section {
+            display: flex;
+            justify-content: space-between;
+        }
+        .site-header__button{
+        
+            border: none;
+            border-radius: 5px;
+            background-color: #696e75;
+            font-size: 18px;
+            color: #0E8784;
+            opacity: 1;
+    
+        }
+    }

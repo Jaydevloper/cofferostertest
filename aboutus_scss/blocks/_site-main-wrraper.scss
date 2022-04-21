@@ -1,0 +1,24 @@
+.site-main-wrraper {
+    margin: 0 auto;
+    width: 1280px;
+    padding-top: 137px;
+    padding-bottom: 137px;
+    background-image: url(../img/coffe1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: $page-color-white;
+}
+.site-main-wrraper__head {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+.site-main-wrraper__page {
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}

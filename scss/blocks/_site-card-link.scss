@@ -1,0 +1,36 @@
+.site-card-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0E8784;
+    color: #fefcf7;
+    border-radius: 6px;
+    padding: 15px 31px 16px 31px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+}
+@media only screen and (max-width:450px){
+    .site-card-link {
+        width: 217px;
+        opacity: 0;
+
+    }
+    .site-card-link--content{
+        opacity: 1;
+    }
+    .site-card-link--visual{
+        margin-left: 24px;
+        display: inline-block;
+        text-decoration: none;
+        background-color: #0E8784;
+        color: #fefcf7;
+        border-radius: 6px;
+        padding: 15px 31px 16px 31px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+    
+    }
+}

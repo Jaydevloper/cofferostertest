@@ -1,0 +1,46 @@
+.site-main-section{
+    &--desktop::before{
+    margin-top: 136px;
+    margin-bottom: -44px;   
+    margin-left: -16px;
+    padding-bottom: 8px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    background-color: #83888F;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    width: 107%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "our collection";
+        }
+}  
+
+@media only screen and(max-width:450px){
+    .site-main-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        margin-top: 120px;
+    }
+    .site-main-section::before {
+        margin: 0;
+        width: 317px;
+        display: block;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 72px;
+        text-align: center;
+        background-image: linear-gradient(180deg, #6d6349 0,01% #868071 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-color: #83888f;
+        content: "our collection";
+
+    }
+
+}

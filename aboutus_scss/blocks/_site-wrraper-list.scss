@@ -1,0 +1,35 @@
+.site-wrraper-list {
+    margin: 0;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .site-wrraper-list__item {
+    @include listunstyle;
+    
+   }
+   .site-wrraper-list__item:not(:last-child){
+       margin-right: 32px;
+   }
+   .site-wrraper-list__item-link { 
+
+     margin-right: 24px;
+     font-family: 'Barlow';
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 12px;
+     line-height: 15px;
+     letter-spacing: 0.923077px;
+     text-transform: uppercase;
+     color: #83888f;
+     &:hover{
+      color: #28cf9d;
+    }
+     }
+    
+    
+    .site-wrraper-list__item--footer{
+        display: flex;
+        align-items: center;
+    }

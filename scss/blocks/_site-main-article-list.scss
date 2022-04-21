@@ -1,0 +1,100 @@
+.site-main-article-list {
+    margin-top: 0px;
+    margin-bottom: 64px;
+    padding-left: 0px;
+    display: flex;
+    color: #333d4b;
+    counter-reset: item;
+}
+.site-main-article-list__item::before{
+    margin-bottom: 82px;
+    border-top: 2px solid #fdd6ba;
+    display: block;     
+    content: "";
+}
+.site-main-article-list__item:not(:last-child)::before{
+    width: 134%;
+}
+.site-main-article-list__item:last-child::before{
+    width: 0%;
+}
+.site-main-article-list__item {
+    position: relative;
+    z-index: 1;
+    list-style: none;
+    counter-increment: item;
+    
+   
+}
+.site-main-article-list__item:not(:last-child){
+    margin-right: 95px;
+}
+.site-main-article-list__item::after{
+    position: absolute;
+    z-index: 1;
+    top: -19px;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+    content: "";
+}
+.site-main-article-list__item-head::before{
+    margin: 0;
+    margin-bottom: 38px;
+    display: block;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+    content: "0" counter(item);
+}
+.site-main-article-list__item-head {
+    margin: 0;
+    margin-bottom: 42px;
+    margin-top: 38px;
+    width: 255px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+.site-main-article-list__item-page {
+    margin: 0;
+    font-family: 'Barlow';
+    width: 285px;
+    font-weight: 400;
+    line-height: 26px;
+}
+@media only screen and (max-width:450px){
+    .site-main-article-list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .site-main-article-list__item:not(:last-child){
+        margin-right: 0px;
+    }
+    
+    .site-main-article-list__item::before{
+        border: none;
+    }
+    .site-main-article-list__item::after{
+        border: none;
+        background-color: transparent;
+    }
+    .site-main-article-list__item-head {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    
+    }
+    .site-main-article-list__item-page {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+}

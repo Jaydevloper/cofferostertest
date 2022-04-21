@@ -1,0 +1,17 @@
+@media only screen and (max-width:450px){
+    .site-main-nav {
+        transition: all 0.7s ease;
+        width: 0px;        
+     
+    }
+    .site-main-nav--img {
+        width: 100%;
+        height: 80vh;
+        background-image: url(../img/Bitmap-moble.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #696e75;
+        border-radius: 5px;
+    }
+
+}

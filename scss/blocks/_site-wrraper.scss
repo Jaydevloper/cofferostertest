@@ -1,0 +1,84 @@
+.site-wrraper {
+    padding-top: 117px;
+    padding-bottom: 116px;
+    color: #fefcf7;
+    background-color: #83888f;
+    background-image: url(../img/Bitmap-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .site-wrraper{
+        background-image: url(../../img/Bitmap-desktop2x.jpg);
+    }
+    
+}
+
+
+.site-wrraper__container {
+    margin-left: 86px;
+    width: 493px;
+}
+
+.site-wrraper__container-head {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.site-wrraper__container-page {
+    font-family: 'Barlow';
+    margin-top: 0px;
+    margin-bottom: 56px;
+    width: 445px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+@media only screen and(max-width:450px){
+    .site-wrraper{
+        border-radius: 5px;
+        background-image: url(../img/Bitmap-moble.jpg);
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .site-wrraper__container {
+        margin: 0;
+        margin-left: 48px;
+        margin-right: 48px;
+        width: 279px;
+        text-align: center;
+
+
+    }
+    .site-wrraper__container-head {
+        margin: 0;
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .site-wrraper__container-page {
+        margin: 0;
+        margin-bottom: 39px;
+        width: 279px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+
+    
+}

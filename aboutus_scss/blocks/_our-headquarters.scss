@@ -1,0 +1,33 @@
+.our-headquarters {
+    padding-top: 168px;
+
+}
+.our-headquarters__head {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color:  #83888F;
+}
+.our-headquarters-list {
+    display: flex;
+    @include listunstyle;
+    margin-top: 72px;
+}
+.our-headquarters-list__item:not(:last-child) {
+    margin-right: 95px;
+
+
+}
+.our-headquarters-list__item-head {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: $page-color;
+}
+.our-headquartes-list__item-page {
+    width: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $page-color;
+}
