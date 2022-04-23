@@ -10,7 +10,7 @@
     line-height: 32px;
     color: #83888f;
 }
-@media only screen and (max-width:450px){
+@include media{
     .site-main-article {
         text-align: center;
             

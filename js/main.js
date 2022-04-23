@@ -1,18 +1,13 @@
-const elWrraperlist = document.querySelector('.site-wrraper-list') 
+const elWrraperlist = document.querySelector('.site-wrraper-list--mobile') 
 const elWrraperBTN = document.querySelector('.js-header-btn') 
 
 elWrraperBTN.addEventListener('click', () => {
     elWrraperlist.classList.toggle('site-wrraper-list--open')
 })
-const elheadernav = document.querySelector('.site-main-nav') 
-const elheaderBTN = document.querySelector('.js-header-btn') 
+const mainwrraper = document.querySelector('.site-main-wrraper') 
+const mainwrraperBTN = document.querySelector('.js-header-btn') 
 
-elheaderBTN.addEventListener('click', () => {
-    elheadernav.classList.toggle('site-main-nav--img')
+mainwrraperBTN.addEventListener('click', () => {
+    mainwrraper.classList.toggle('site-main-wrraper--open')
 })
-const cardlink = document.querySelector('.site-card-link') 
-const cardlinkBTN = document.querySelector('.js-header-btn') 
 
-cardlinkBTN.addEventListener('click', () => {
-    cardlink.classList.toggle('site-card-link--content')
-})

@@ -20,7 +20,7 @@
         }
 }  
 
-@media only screen and(max-width:450px){
+@include media{
     .site-main-section{
         display: flex;
         flex-direction: column;

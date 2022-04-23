@@ -1,0 +1,58 @@
+.site-main-wrraper-content {
+    padding-top: 137px;
+    padding-bottom: 137px;
+    margin: 0 auto;
+    width: 1280px;
+    background-image: url(../../img/coffe1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #7b8186;
+    color: $color-white;
+    border-radius: 10px;
+}
+
+@include cssretina{
+    .site-main-wrraper-content{
+        background-image: url(../../img/coffe2x.jpg);
+    }
+}
+
+
+.site-main-wrraper-content__head {
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.site-main-wrraper-content__page {
+    margin: 0;
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+@include media{
+    .site-main-wrraper-content{
+        width: 350px;
+        background-image: url(../../img/coffe-mobile.jpg);
+        text-align: center;
+    }
+    @include cssretina{
+        .site-main-wrraper-content{
+            background-image: url(../../img/coffe-mobile@2x.jpg);
+        }
+    }
+    .site-main-wrraper-content__head{
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .site-main-wrraper-content__page{
+        margin:  0 auto;
+        width: 279px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

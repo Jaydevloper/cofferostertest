@@ -10,7 +10,7 @@
     font-size: 18px;
     line-height: 25px;
 }
-@media only screen and (max-width:450px){
+@include media{
     .site-card-link {
         width: 217px;
         opacity: 0;
@@ -20,7 +20,6 @@
         opacity: 1;
     }
     .site-card-link--visual{
-        margin-left: 24px;
         display: inline-block;
         text-decoration: none;
         background-color: #0E8784;

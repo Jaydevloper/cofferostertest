@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 @media /* only for retina displays */
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -44,12 +45,11 @@ only screen and (min-resolution: 2dppx) {
     line-height: 26px;
     opacity: 0.8;
 }
-@media only screen and(max-width:450px){
+@include media{
     .site-wrraper{
         border-radius: 5px;
         background-image: url(../img/Bitmap-moble.jpg);
         width: 100%;
-        height: 80vh;
         background-repeat: no-repeat;
         background-size: cover;
 

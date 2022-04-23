@@ -66,7 +66,7 @@
     font-weight: 400;
     line-height: 26px;
 }
-@media only screen and (max-width:450px){
+@include media{
     .site-main-article-list {
         display: flex;
         flex-direction: column;

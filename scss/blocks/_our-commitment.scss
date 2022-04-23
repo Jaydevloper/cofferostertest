@@ -1,0 +1,42 @@
+.our-commitment {
+    padding-left: 0;
+    padding-top: 168px;
+    padding-bottom: 258px;
+    display: flex;
+    align-items: center;
+    color: $page-color;
+}
+
+.our-commitment__right {
+    margin-left: 125px;
+}
+.our-commitment__head {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.our-commitment__page {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+@include media{
+    .our-commitment{
+        flex-direction: column;
+    }
+   .our-commitment__img{
+       padding-left: 24px;
+   }
+   .our-commitment__right{
+    margin-left: 0;
+    text-align: center;
+}
+   .our-commitment__head{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+   }
+  
+
+}

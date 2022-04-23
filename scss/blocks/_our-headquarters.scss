@@ -1,0 +1,17 @@
+.our-headquarters {
+    padding-top: 168px;
+}
+
+.our-headquarters__head {
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+@include media{
+    .our-headquarters__head{
+        display: block;
+        text-align: center;
+    }
+}
